@@ -8,9 +8,9 @@ const SecondaryContainerWithCards = () => {
   return (
     <div className='-mt-72'>
       <MovieList title={"Now Playing"} movies={movies.nowPlayingMovies}/>
-      <MovieList title={"Trending"} movies={movies.nowPlayingMovies}/>
-      <MovieList title={"Thriller"} movies={movies.nowPlayingMovies}/>
-      <MovieList title={"Adventure"} movies={movies.nowPlayingMovies}/>
+      <MovieList title={"Popular"} movies={movies.popularMovies}/>
+      <MovieList title={"Top Rating"} movies={movies.topRatingMovies}/>
+      <MovieList title={"Up Comming"} movies={movies.upCommingMovies}/>
     </div>
   )
 }
